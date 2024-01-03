@@ -1,0 +1,99 @@
+* {
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #1e202b !important;
+}
+/* &nav bar */
+
+.navbar-nav .nav-item {
+  margin-right: 1.2rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  border: 3px solid transparent;
+  padding: .4rem1.2rem !important;
+  transition: color 0.5s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item .nav-link.active {
+  color: #009ad8;
+  border: 3px solid #009ad8;
+  border-radius: 1.3rem;
+}
+
+/* foter */
+
+footer {
+  background-color: #262936;
+  color: #fff;
+  padding: 1.2rem 0;
+}
+
+.social-icons a {
+  margin: 0 .5rem;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #1e202b;
+  border-radius: 30%;
+  color: #009ad8;
+  transition: background-color 0.5s, color 0.5s;
+}
+.social-icons a:hover {
+  color: #fff;
+  background-color: #009ad8;
+}
+
+.footer-input,
+.find-fild .container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #1e202b;
+  border-radius: 1.3rem;
+  padding: .4rem;
+}
+.footer-input input[type="text"],
+.find-fild .container input[type="text"] {
+  background-color: #1e202b;
+  border: none;
+  color: #fff !important;
+  outline: 0;
+  width: 90%;
+}
+.footer-input input,
+.find-fild .container input {
+  padding: .6rem;
+  border-radius: 1.3rem;
+}
+
+.footer-input input::placeholder,
+.find-fild .container input::placeholder {
+  color: #8a8a8a;
+}
+
+.card {
+  background-color: #262936 !important;
+  color: #fff !important;
+}
+.card:nth-child(2) {
+  background-color: #1e202b !important;
+  color: #fff !important;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+/* .hero {
+  background: #1e202b;
+} */
+.find-fild {
+  background: url("../img/banner.png") center/cover no-repeat;
+  padding: 2rem 0;
+}
